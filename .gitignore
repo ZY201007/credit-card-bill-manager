@@ -1,0 +1,36 @@
+# Python 字节码 / 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# pytest / 覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# 运行时生成的数据库（测试数据不入库）
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+data/*.sqlite3
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 分发产物
+build/
+dist/
+*.egg-info/
